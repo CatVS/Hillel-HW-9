@@ -8,9 +8,7 @@ body a {
 text-decoration: none;
 }
 
-
-
-
+/* 1 */
 .container {
     width: 100%;
     max-width: 1140px;
@@ -26,7 +24,6 @@ text-decoration: none;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-
     padding: 0;
     margin: 0 auto;
 }
@@ -56,12 +53,7 @@ ul li a:hover {
 }
 
 
-
-
-
-
-
-
+/* 2 */
 .container2 {
     width: 100%;
     padding: 0;
@@ -74,7 +66,7 @@ ul li a:hover {
     margin: 0 auto;
     display: block;
     clear: both;
-    }
+}
 
 .box1 {
     width: 80px;
@@ -92,9 +84,7 @@ ul li a:hover {
     float: left;
     margin: 0 auto;
     text-transform: uppercase;
-
 }
-
 
 .box-wrap {
     float: right;
@@ -112,7 +102,6 @@ ul li a:hover {
 .box3 a {
     text-decoration: none;
     color: #000;
-
 }
 
 button {
@@ -143,7 +132,6 @@ button {
     margin: 40px auto;
     border: 2px solid white; 
     border-radius: 40px;
-
 }
 
 .button:hover {
@@ -166,7 +154,7 @@ hr {
 }
 
 
-
+/* 3 */
 .menu {
     width: 100%;
     padding: 0;
@@ -175,7 +163,6 @@ hr {
 }
 
 nav {
-
     font-size: 16px;
     font-style: normal;
     line-height: 19px;
@@ -185,12 +172,6 @@ nav {
 }
 
 nav:hover {
-    font-size: 16px;
-    font-style: normal;
-    line-height: 19px;
-    font-weight: 400;
-    color: #000000;
-    text-align: center;
     text-decoration: underline solid rgb(90, 90, 250);
 }
 
@@ -201,7 +182,6 @@ nav a {
 
 nav a:hover {
     text-decoration: underline solid rgb(90, 90, 250);
-    color: #000000;
 }
 
 ul {
@@ -217,9 +197,7 @@ nav ul li {
 
 
 
-
-
-
+/* 4 */
 .container3 {
     width: 100%;
     padding: 0;
@@ -251,7 +229,6 @@ nav ul li {
     float: left;
     padding: 164px 0 0 0;
     margin: 0 auto;
-
 }
 
 h2 {
@@ -275,7 +252,6 @@ h2 {
     margin: 0 auto;
 }
 
-
 .about-wrap .button {
     display: inline-block;
     text-decoration: none;
@@ -293,9 +269,7 @@ h2 {
     color:#FFFFFF;
 }
 
-
 .about-wrap .button:hover {
-
     text-decoration: underline solid rgb(90, 90, 250);
 }
 
@@ -304,16 +278,13 @@ span {
 }
 
 
-
-
-
+/* 5 */
 
 .cards {
     width: 100%;
     max-width: 1140px;
     padding: 0;
     margin: 0 auto;
-
 }
 
 .cards h2 {
@@ -334,7 +305,6 @@ span {
     margin-bottom: 100px;
     display: inline-block;
 }
-
 
 .card {
     max-width: 25%;
@@ -387,7 +357,6 @@ h3 {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    
 }
 
 .card-wrapper p {
@@ -407,8 +376,7 @@ h3 {
 }
 
 
-
-
+/* 6 */
 
 .container4 {
     width: 100%;
@@ -418,10 +386,8 @@ h3 {
     margin: 0 auto;
 }
 
-
 .container4-wrap {
     max-width: 1140px;
-
     padding: 0;
     margin: 0 auto;
     display: inline-block;
@@ -436,8 +402,7 @@ h3 {
     color:#FFFFFF;
     padding: 0;
     margin: 0 15px ;
-
-} 
+}
 
 .touch2 {
     width: 540px;
@@ -501,7 +466,7 @@ input[type="email"] {
     line-height: 16px;
     color: #C4C4C4;
    }
- 
+
 .text-wrap .button {
     width: 170px;
     height: 35px;
@@ -510,15 +475,14 @@ input[type="email"] {
     background-color: #F13C6E;
     border-color: #FFFFFF;
     color: #FFFFFF;
-   }
+}
 
 .text-wrap .button a {
     color: #FFFFFF;
-   }
+}
 
 
-
-
+/* 7 */
 
 .wrap {
     width: 100%;
@@ -543,8 +507,6 @@ input[type="email"] {
     align-items: center;
     padding: 0;
     margin: 0 auto;
-
-
 }
 
 .logo {
@@ -567,11 +529,7 @@ input[type="email"] {
 }
 
 
-
-
-
-
-
+/* 8 */
 
 .viewed-cards {
     width: 100%;
@@ -579,7 +537,6 @@ input[type="email"] {
     padding: 0;
     margin: 0 auto;
 }
-
 
 .viewed-cards h2 {
     width: 100%;
@@ -591,14 +548,10 @@ input[type="email"] {
     padding: 0 0 0 15px;
     margin: 0px 0 38px 0;
     color: #000000;
-
 }
 
 
-
-
-
-
+/* 9 */
 
 .menu-footer {
     padding: 0;
@@ -617,7 +570,6 @@ input[type="email"] {
     width: 255px;
     padding: 25px 0 60px 0;
     margin: 0 9px;
-
 }
 
 .h4 {
@@ -644,7 +596,6 @@ input[type="email"] {
     margin: 0 auto;
 }
 
-
 .h5 {
     font-style: normal;
     font-weight: 400;
@@ -657,21 +608,11 @@ input[type="email"] {
 }
 
 .h5:hover {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 28px;
-    color: #828282;
-    text-align: left;
-    padding: 0;
-    margin: 0 auto;
     text-decoration: underline solid rgb(90, 90, 250);
 }
 
-
 .pop-cat a {
     text-decoration: none;
-    display: block;
 }
 
 .pop-cat a:hover {
@@ -684,32 +625,38 @@ ul {
     float: left;
 }
 
-
 td > hr {
     padding:0;
     margin: 0 auto;
     max-width: 255px;
 }
 
+/* 10 */
 
 .box-social {
-    padding: 0;
+    margin: 0 auto;
     display: block;
-
+    padding: 0;
 }
 
-
+.box-social img {
+    margin: 0 auto;
+    padding: 10px;
+}
 
 .social {
     border: 2px solid #F13C6E;
-    border-radius: 45px;
+    border-radius: 50%;
     background-color: white;
-    padding: 12px 12px;
     margin: 37px 10px;
+    padding: 0;
     float: left;
+    width: 45px;
+    height: 45px;
 }
 
 
+/* 11 */
 
 .footer {
     background-color: #EFEFEF;
@@ -719,9 +666,7 @@ td > hr {
     padding: 0;
     margin: 0 auto;
     text-align: center;
-
 }
-
 
 .footer-wrap {
     width: 100%;
@@ -745,8 +690,17 @@ td > hr {
     margin: 0 auto;
 }
 
-
 .footer p {
+    color:#828282;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.footer a {
     color:#828282;
     font-style: normal;
     font-weight: 400;
