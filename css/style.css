@@ -10,7 +10,7 @@ body a {
 
 body a:hover {
     text-decoration: underline solid rgb(90, 90, 250);
-    }
+}
 
 /* 1 */
 .header-wrapper {
@@ -56,15 +56,12 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0 auto;
-
 }
 
 ul li a {
     text-decoration: none;
     color: #333333;
 }
-
-
 
 /* 2 */
 .container2 {
@@ -88,10 +85,6 @@ ul li a {
     margin-right: 20px;
     padding: 20px 0;
 }
-
-/* .box1:hover {
-    text-decoration: underline solid rgb(90, 90, 250);
-} */
 
 .box2 {
     font-size: 36px;
@@ -120,10 +113,6 @@ ul li a {
     float: left;
     padding: 50px 40px 50px 0;
 }
-/* 
-.box3:hover {
-    text-decoration: underline solid rgb(90, 90, 250);
-} */
 
 .box3 a {
     text-decoration: none;
@@ -178,10 +167,6 @@ button:hover {
     color:#FFFFFF;
 }
 
-/* .button a:hover {
-    text-decoration: underline solid rgb(90, 90, 250);
-} */
-
 hr {
     border: 1px solid #EFEFEF;
     margin: 0;
@@ -191,10 +176,6 @@ hr {
 .box2 span {
     color:#F13C6E
 }
-
-/* .box2 span:hover {
-    text-decoration: underline solid rgb(90, 90, 250);
-} */
 
 /* 3 */
 .menu {
@@ -222,10 +203,6 @@ nav a {
     text-decoration: none;
     color:#000000;
 }
-/* 
-nav a:hover {
-    text-decoration: underline solid rgb(90, 90, 250);
-} */
 
 nav ul li {
     display: inline-block;
@@ -233,15 +210,12 @@ nav ul li {
     margin: 30px auto;
 }
 
-
-
 /* 4 */
 .main-wrap {
     width: 100%;
     padding: 0;
     margin: 0 auto;
 }
-
 
 .container3 {
     width: 100%;
@@ -319,7 +293,6 @@ h2 {
 span {
     color: white;
 }
-
 
 /* 5 */
 
@@ -503,7 +476,6 @@ form:hover {
     padding: 0;
 }
 
-
 .email {
     border: none;
     background: #FFFFFF;
@@ -590,9 +562,7 @@ input[type="email"] {
     margin: 35px 60px;
 }
 
-
 /* 8 */
-
 .viewed-cards {
     width: 100%;
     max-width: 1140px;
@@ -612,9 +582,7 @@ input[type="email"] {
     color: #000000;
 }
 
-
 /* 9 */
-
 .menu-footer {
     width: 100%;
     padding: 0;
