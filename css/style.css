@@ -5,41 +5,58 @@ body {
 }
 
 body a {
-text-decoration: none;
+    text-decoration: none;
 }
 
+body a:hover {
+    text-decoration: underline solid rgb(90, 90, 250);
+    }
+
 /* 1 */
+.header-wrapper {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
 .container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav {
     width: 100%;
     max-width: 1140px;
     padding: 0;
     margin: 0 auto;
-    text-align: center;
+    overflow: hidden;
 }
 
-.nav-wr {
-    text-align: center;
+nav:hover {
+    text-decoration: underline solid rgb(90, 90, 250);
+}
+
+.container nav ul li {
     display: inline-block;
+    padding: 0 15px;
+    margin: 16px auto;
+    color: #333333;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    padding: 0;
-    margin: 0 auto;
-}
-
-.nav-wr ul li {
-    display: inline-block;
-    padding: 0 20px;
-    margin: 30px auto;
-    color: #333333;
+    text-align: center;
 }
 
 ul {
     width: 100%;
+    max-width: 1140px;
     list-style: none;
     padding: 0;
     margin: 0 auto;
+
 }
 
 ul li a {
@@ -47,10 +64,6 @@ ul li a {
     color: #333333;
 }
 
-ul li a:hover {
-    color: #333333;
-    text-decoration: underline solid rgb(90, 90, 250);
-}
 
 
 /* 2 */
@@ -66,6 +79,7 @@ ul li a:hover {
     margin: 0 auto;
     display: block;
     clear: both;
+    overflow: hidden;
 }
 
 .box1 {
@@ -74,6 +88,10 @@ ul li a:hover {
     margin-right: 20px;
     padding: 20px 0;
 }
+
+/* .box1:hover {
+    text-decoration: underline solid rgb(90, 90, 250);
+} */
 
 .box2 {
     font-size: 36px;
@@ -84,6 +102,10 @@ ul li a:hover {
     float: left;
     margin: 0 auto;
     text-transform: uppercase;
+}
+
+.box2:hover {
+    text-decoration: underline solid rgb(90, 90, 250);
 }
 
 .box-wrap {
@@ -98,8 +120,17 @@ ul li a:hover {
     float: left;
     padding: 50px 40px 50px 0;
 }
+/* 
+.box3:hover {
+    text-decoration: underline solid rgb(90, 90, 250);
+} */
 
 .box3 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.box3 a:hover {
     text-decoration: none;
     color: #000;
 }
@@ -119,6 +150,10 @@ button {
     border-radius: 40px;
 }
 
+button:hover {
+    text-decoration: underline solid rgb(90, 90, 250);
+}
+
 .button {
     display: inline-block;
     background-color: #F13C6E;
@@ -129,7 +164,7 @@ button {
     line-height: 16px;
     font-weight: 400;
     padding: 12px 26px;
-    margin: 40px auto;
+    margin: 10px 0 25px 40px;
     border: 2px solid white; 
     border-radius: 40px;
 }
@@ -143,6 +178,10 @@ button {
     color:#FFFFFF;
 }
 
+/* .button a:hover {
+    text-decoration: underline solid rgb(90, 90, 250);
+} */
+
 hr {
     border: 1px solid #EFEFEF;
     margin: 0;
@@ -153,6 +192,9 @@ hr {
     color:#F13C6E
 }
 
+/* .box2 span:hover {
+    text-decoration: underline solid rgb(90, 90, 250);
+} */
 
 /* 3 */
 .menu {
@@ -160,6 +202,7 @@ hr {
     padding: 0;
     margin: 0 auto;
     background: white;
+    overflow: hidden;
 }
 
 nav {
@@ -179,15 +222,10 @@ nav a {
     text-decoration: none;
     color:#000000;
 }
-
+/* 
 nav a:hover {
     text-decoration: underline solid rgb(90, 90, 250);
-}
-
-ul {
-    list-style: none;
-    margin: 0 auto;
-}
+} */
 
 nav ul li {
     display: inline-block;
@@ -198,6 +236,13 @@ nav ul li {
 
 
 /* 4 */
+.main-wrap {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
 .container3 {
     width: 100%;
     padding: 0;
@@ -214,11 +259,20 @@ nav ul li {
     display: block;
     clear: both;
     background: url("../img/chair.png");
+    overflow: hidden;
+    padding: 0;
+    margin: 0 auto;
 }
 
 .about {
     width: 100%;
     max-width: 1110px;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-weight: 300;
+    letter-spacing: 0.07em;
     margin: 0 auto;
     padding: 0;
 }
@@ -227,7 +281,7 @@ nav ul li {
     width: 100%;
     max-width: 308px;
     float: left;
-    padding: 164px 0 0 0;
+    padding: 0;
     margin: 0 auto;
 }
 
@@ -237,18 +291,7 @@ h2 {
     line-height: 56px;
     color: #FFFFFF;
     font-weight: 700;
-    padding: 0;
-    margin: 0 auto;
-}
-
-.about p {
-    font-size: 14px;
-    font-style: normal;
-    line-height: 20px;
-    color: #FFFFFF;
-    font-weight: 300;
-    padding: 15px 0;
-    letter-spacing: 0.07em;
+    padding: 164px 0 25px 0;
     margin: 0 auto;
 }
 
@@ -302,15 +345,16 @@ span {
 .card-list {
     width: 100%;
     max-width: 1140px;
+    padding: 0;
+    margin: 0;
     margin-bottom: 100px;
     display: inline-block;
 }
 
 .card {
     max-width: 25%;
-    /* margin: 0 15px; */
     margin: 0 15px;
-    padding: 25px 36px;
+    padding: 25px 36px 0 36px;
     text-align: center;
     text-decoration: none;
     color: #000000;
@@ -320,8 +364,13 @@ span {
 
 .card-wrapper {
     width: 100%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .card > img {
@@ -338,8 +387,8 @@ span {
     font-size: 14px;
     line-height: 16px;
     font-weight: 400;
-    padding: 10px 0;
-    margin: 15px auto;
+    padding: 7px 0;
+    margin: 20px auto;
     border: 2px solid #F13C6E;
     border-radius: 30px;
     color:#FFFFFF;
@@ -351,30 +400,26 @@ span {
 
 h3 {
     width: 180px;
-    padding: 10px 20px;
-    margin: 0 auto;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
+    text-align: center;
+    color: #333333;
 }
 
-.card-wrapper p {
-    /* display: block; */
+.price {
     font-style: normal;
     font-weight: 500;
     font-size: 21px;
     line-height: 25px;
     text-align: center;
     letter-spacing: 0.05em;
-    padding: 10px 0;
-    margin: 0 auto;
 }
 
-.card-wrapper p:hover {
-    text-decoration: underline solid rgb(90, 90, 250);
+.price span {
+    color: #000000;
 }
-
 
 /* 6 */
 
@@ -401,7 +446,7 @@ h3 {
     background-color: #F13C6E;
     color:#FFFFFF;
     padding: 0;
-    margin: 0 15px ;
+    margin: 0 15px;
 }
 
 .touch2 {
@@ -413,6 +458,37 @@ h3 {
     color:#FFFFFF;
     padding: 0;
     margin: 0 15px ;
+}
+
+.text-wrap {
+    max-width: 250px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 0 0 40px;
+    margin: 20px 0 0 0;
+}
+
+
+.text-wrap > h4 {
+    width: 100%;
+    float: left;
+    padding: 15px 0 25px 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0;
+}
+
+form {
+    padding: 0;
+    margin: 25px 0 35px 40px;
+}
+
+form:hover {
+    text-decoration: underline solid rgb(90, 90, 250);
 }
 
 .img-wrap {
@@ -427,24 +503,6 @@ h3 {
     padding: 0;
 }
 
-.text-wrap {
-    float: left;
-    padding: 10px 40px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-}
-
-.text-wrap p {
-    width: 140px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    padding: 0;
-    margin: 0 0 30px 0;
-}
 
 .email {
     border: none;
@@ -477,10 +535,13 @@ input[type="email"] {
     color: #FFFFFF;
 }
 
+.text-wrap .button:hover {
+    text-decoration: underline solid rgb(90, 90, 250);
+}
+
 .text-wrap .button a {
     color: #FFFFFF;
 }
-
 
 /* 7 */
 
@@ -516,10 +577,11 @@ input[type="email"] {
     float: left;
     padding: 0;
     margin: 0 auto;
+    text-decoration: none;
 }
 
-.logo {
-    text-decoration: none;
+.logo:hover {
+    text-decoration: underline solid rgb(90, 90, 250);
 }
 
 .logo img {
@@ -554,9 +616,10 @@ input[type="email"] {
 /* 9 */
 
 .menu-footer {
+    width: 100%;
     padding: 0;
-    margin: 0 auto;
-    background: white;
+    margin: 0;
+    background: #FFFFFF;
 }
 
 .menu-footer-wr {
@@ -564,39 +627,38 @@ input[type="email"] {
     max-width: 1110px;
     padding: 0;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .pop-cat {
-    width: 255px;
-    padding: 25px 0 60px 0;
+    width: 25%;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.pop-cat ul {
+    padding: 60px 0 60px 0;
     margin: 0 9px;
 }
 
-.h4 {
+.pop-cat .h4 {
     width: 99px;
     font-size: 16px;
     font-style: normal;
     line-height: 19px;
     font-weight: 500;
     color: #000000;
-    float: left;
-    padding: 60px 0 30px 0;
+    padding: 0;
     margin: 0 auto;
 }
 
-.h4:hover {
-    font-size: 16px;
-    font-style: normal;
-    line-height: 19px;
-    font-weight: 500;
-    color: #000000;
-    float: left;
+.pop-cat .h4:hover {
     text-decoration: underline solid rgb(90, 90, 250);
-    padding: 60px 0 30px 0;
-    margin: 0 auto;
 }
 
-.h5 {
+
+.pop-cat .h5 {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -607,28 +669,26 @@ input[type="email"] {
     margin: 0 auto;
 }
 
-.h5:hover {
+.pop-cat .h5:hover {
     text-decoration: underline solid rgb(90, 90, 250);
 }
 
-.pop-cat a {
+.pop-cat ul li a {
     text-decoration: none;
-}
-
-.pop-cat a:hover {
-    text-decoration: underline solid rgb(90, 90, 250);
 }
 
 ul {
     list-style: none;
     margin: 0 auto;
     float: left;
+    padding: 0;
 }
 
-td > hr {
-    padding:0;
-    margin: 0 auto;
+.pop-cat hr {
+    padding: 0;
+    margin: 30px 0;
     max-width: 255px;
+    text-align: left;
 }
 
 /* 10 */
@@ -655,57 +715,59 @@ td > hr {
     height: 45px;
 }
 
+.social:hover {
+    text-decoration: underline solid rgb(90, 90, 250);
+}
+
 
 /* 11 */
+
 
 .footer {
     background-color: #EFEFEF;
     text-align: left;
     color: white;
     width: 100%;
+    text-align: center;
     padding: 0;
     margin: 0 auto;
-    text-align: center;
 }
 
 .footer-wrap {
     width: 100%;
     max-width: 1110px;
-    padding: 15px 0;
-    margin: 25px auto;
     display: inline-block;
+    padding: 0;
+    margin: 0 auto;
+    color:#828282;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.footer-wrap span {
+    color:#828282;
 }
 
 .footer-wrap-left {
     max-width: 50%;
     float:left;
     padding: 0;
-    margin: 0 auto;
+    margin: 25px auto;
 }
 
 .footer-wrap-right {
     max-width: 50%;
     float:right;
     padding: 0;
-    margin: 0 auto;
+    margin: 25px auto;
 }
 
-.footer p {
-    color:#828282;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    padding: 0;
-    margin: 0 auto;
+.footer-wrap-right:hover {
+    text-decoration: underline solid rgb(90, 90, 250);
 }
 
-.footer a {
+.footer-wrap-right a {
     color:#828282;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    padding: 0;
-    margin: 0 auto;
 }
